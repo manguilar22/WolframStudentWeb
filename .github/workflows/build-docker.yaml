@@ -1,0 +1,24 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CD-docker
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ master ]
+  
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+        
+    - uses: actions/checkout@v2     
+    - name: Build & Push Image
+      run: |
+        cd . 
+        docker login --username=manguilar22 --password=${{ secrets.DOCKER_PW }}
+        docker image build -t manguilar22/nginx:wolfram -f Dockerfile .
+        docker push manguilar22/nginx:wolfram

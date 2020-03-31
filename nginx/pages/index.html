@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+
+<html> 
+
+	<head>
+			<link rel="stylesheet" type="text/css" href="../styles/utep.css"/>
+			<script crossorigin src="https://unpkg.com/wolfram-notebook-embedder@0.1/dist/wolfram-notebook-embedder.min.js"></script>
+	</head>
+
+	<body>
+
+		<h3> Geography </h3>
+		<!--<div id="geography"></div>-->
+		<div id="cartography"></div>
+
+		<h3> Chemistry </h3>
+		<!-- <div id="chemicalPlot"></div> -->
+		<div id="chemicalManipulate"></div>
+
+	</body>
+
+	<script>
+
+			WolframNotebookEmbedder.embed("https://www.wolframcloud.com/obj/manguilar22/CartographyExample",
+			document.getElementById("cartography"));
+
+			WolframNotebookEmbedder.embed("https://www.wolframcloud.com/obj/user-2baf83bf-3e64-4abf-a643-2dc1314a9797/demo1", 
+			document.getElementById("geography"));
+
+			WolframNotebookEmbedder.embed("https://www.wolframcloud.com/obj/user-2baf83bf-3e64-4abf-a643-2dc1314a9797/chemistryDemo",
+					document.getElementById("chemicalPlot"));
+
+			WolframNotebookEmbedder.embed("https://www.wolframcloud.com/obj/manguilar22/myChemistryDemo",
+			document.getElementById("chemicalManipulate"));
+
+
+	</script> 
+
+</html> 

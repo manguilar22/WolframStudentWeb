@@ -1,0 +1,39 @@
+body{background:#3775b0 url(http://www.cs.utep.edu/images/backgroundclass.png) repeat-x top center;
+    font-size:14px; font-family:arial sans-serif;color:white;text-align:left;margin-left:20px; margin-right:auto; position:top center}
+
+#main{margin-left:auto; margin-right:auto}
+
+.header{background:transparent url(http://www.cs.utep.edu/images/headerclass.png) no-repeat bottom center;padding-left:10px;width:860px; height:90px;
+    margin-bottom:10px; padding-top:3px;padding-bottom:25px; margin-top:0px;}
+
+h1{font-family:Palatino; margin-bottom:20px;margin-top:30px;margin-right:30px;margin-left:20px;font-size:28px;
+    text-align:left;color:white;letter-spacing:1px;padding-left:10px; padding-top:15px; padding-bottom:15px;
+    line-height:25px;border-bottom:#ffaa22 2px solid}
+
+h3{margin-left:30px; font-family:arial, sans-serif; margin-bottom:0px;
+    font-size:14px; font-weight:bold;text-align:left;color:#ffaa22;letter-spacing:1px;margin-top:10px;}
+
+h4{margin-left:30px; font-family:verdana, sans-serif; margin-bottom:15px;font-size:normal;text-align:left;color:black;
+    letter-spacing:1px;margin-top:0px;}
+
+a{color:#88ccdd
+;text-decoration:none; font-weight:bold; font-size:13px}
+a:hover{color:#ffaa22;text-decoration:underline}
+
+
+#content{margin-top:20px;width:750px;
+    margin-left:55px;
+    height:auto; font-family:arial sans-serif;color:white;text-align:left}
+#content p{margin-left:30px; padding:10px;font-family:arial;text-align:left; width:90%;
+    line-height:20px;}
+#content ul{font-family:arial; padding-left:60px}
+#content li{}
+
+h4{margin-left:30px; font-family:verdana, sans-serif; margin-bottom:15px;font-size:normal;text-align:left;color:black;
+    letter-spacing:1px;margin-top:0px;}
+
+
+a.email{color:#517693; text-decoration:none; font-size:12px; font-weight:normal}
+
+
+

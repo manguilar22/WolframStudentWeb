@@ -1,0 +1,24 @@
+li {
+	list-style-type: square;
+}
+
+
+.banner {
+	position: absolute;
+	left: 0;
+	top: 150px;
+	width: 80%;
+}
+
+.wolframLOGO {
+	width: 15px;
+	height: 15px;
+	position: relative;
+	right:0;
+	top:0;
+}
+
+.bannerLogo {
+	width: 500px;
+	height: 50px;
+}
