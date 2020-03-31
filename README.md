@@ -1,27 +1,27 @@
 # Wolfram Student Ambassador 
 
-File Server and Information Portal
+## Status ![](https://github.com/manguilar22/WolframStudentWeb/workflows/build-docker/badge.svg)
 
-```
-This project is made to help Wolfram student ambassadors who want to share a web server in their meetups. This project is a template where the person is able to modify the *html* files to illustate their school and message. 
-```
+The purpose of this repository is to help Wolfram Student Ambassadors who want to share a web server in their meetups. This project is a template where the person is able to modify the *html* files to illustate their school and message. This container can also use the [Wolfram Notebook Embedder](https://reference.wolfram.com/language/WolframNotebookEmbedder/) with your personal notebooks. 
+
 
 ### Directory Structure
 
-* index.html
+* **index.html**
 	* The welcoming page for your orginization.  
-* main.css 
+* **main.css** 
 	* The main styling page that will be used. 
 	* You don't have to just use this one. But for my example I did so. 
-* images/ 
+* **images/** 
 	* Images that will be displayed in your website can be uploaded here. 
-* notebooks/ 
+* **notebooks/** 
 	* The file server. 
 	* Upload all your content here. 
-* pages/ 
+* **pages/** 
 	* Additional html pages can be uploaded here.
-* styles/ 
+* **styles/**
 	* Adddition stylesheets can be uploaded here.
+
 
 ##### Build in Docker 
 
