@@ -5,6 +5,12 @@
 The purpose of this repository is to help Wolfram Student Ambassadors who want to share a web server in their meetups. This project is a template where the person is able to modify the *html* files to illustate their school and message. This container can also use the [Wolfram Notebook Embedder](https://reference.wolfram.com/language/WolframNotebookEmbedder/) with your personal notebooks. 
 
 
+#### Run in Docker
+
+```bash
+docker run -p 8080:80 -d manguilar22/nginx:wolfram
+```
+
 ### Directory Structure
 
 * **index.html**
