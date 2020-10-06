@@ -17,6 +17,7 @@ spec:
       containers:
         - name: wolfram-student-info-portal
           image: manguilar22/nginx:wolfram
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
 ---
