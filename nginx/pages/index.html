@@ -9,29 +9,35 @@
 
 	<body>
 
-		<h3> Geography </h3>
-		<!--<div id="geography"></div>-->
-		<div id="cartography"></div>
+		<div id="demo"></div>
 
-		<h3> Chemistry </h3>
+		<!--<h3> Gridded World Population </h3>-->
+		<!--<a src="https://datarepository.wolframcloud.com/resources/Gridded-World-Population-Density">Data Source</a>-->
+		<!--<div id="geography"></div>-->
+		<!--<div id="cartography"></div>-->
+
+		<!--<h3> Chemistry </h3>-->
 		<!-- <div id="chemicalPlot"></div> -->
-		<div id="chemicalManipulate"></div>
+		<!--<div id="chemicalManipulate"></div>-->
 
 	</body>
 
 	<script>
 
-			WolframNotebookEmbedder.embed("https://www.wolframcloud.com/obj/manguilar22/CartographyExample",
-			document.getElementById("cartography"));
+			var demoLink = "https://www.wolframcloud.com/obj/manguilar22/Published/Demos.nb";
+			WolframNotebookEmbedder.embed(demoLink,document.getElementById("demo"));
 
-			WolframNotebookEmbedder.embed("https://www.wolframcloud.com/obj/user-2baf83bf-3e64-4abf-a643-2dc1314a9797/demo1", 
-			document.getElementById("geography"));
+			//WolframNotebookEmbedder.embed("https://www.wolframcloud.com/obj/manguilar22/CartographyExample",
+			//document.getElementById("cartography"));
 
-			WolframNotebookEmbedder.embed("https://www.wolframcloud.com/obj/user-2baf83bf-3e64-4abf-a643-2dc1314a9797/chemistryDemo",
-					document.getElementById("chemicalPlot"));
+			//WolframNotebookEmbedder.embed("https://www.wolframcloud.com/obj/user-2baf83bf-3e64-4abf-a643-2dc1314a9797/demo1",
+			//document.getElementById("geography"));
 
-			WolframNotebookEmbedder.embed("https://www.wolframcloud.com/obj/manguilar22/myChemistryDemo",
-			document.getElementById("chemicalManipulate"));
+			//WolframNotebookEmbedder.embed("https://www.wolframcloud.com/obj/user-2baf83bf-3e64-4abf-a643-2dc1314a9797/chemistryDemo",
+			//		document.getElementById("chemicalPlot"));
+
+			//WolframNotebookEmbedder.embed("https://www.wolframcloud.com/obj/manguilar22/myChemistryDemo",
+			//document.getElementById("chemicalManipulate"));
 
 
 	</script> 
